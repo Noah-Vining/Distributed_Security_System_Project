@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4129478418534021070
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4129478418534021068}
+  - component: {fileID: 4129478418534021071}
+  - component: {fileID: 4835230532972316388}
+  m_Layer: 0
+  m_Name: NetworkCommunicator
+  m_TagString: Communicator
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4129478418534021068
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4129478418534021070}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.487552, y: 5.5, z: -3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4129478418534021071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4129478418534021070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GlobalObjectIdHash: 951099334
+  AlwaysReplicateAsRoot: 0
+  DontDestroyWithOwner: 0
+  AutoObjectParentSync: 1
+--- !u!114 &4835230532972316388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4129478418534021070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d86944905c89fc47872c6e6d04b1455, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: {fileID: 6214019778195429938, guid: ecb4f08d5bbf61d4f8a9a502f71e5f42,
+    type: 3}
+  cameras: {fileID: 4551467178445070186, guid: e68ccf02b9618954b8ad36cf3059b322, type: 3}
+  laser: {fileID: 2402991983465518069, guid: a19b7786cc7392341be7d790d0323a00, type: 3}
+  light: {fileID: 8979176085635154675, guid: ab088f04d033ac347ab69500fe911284, type: 3}
+  door: {fileID: 7289441141694264050, guid: de532b5b1403dc64ebec17b0c06e66c9, type: 3}
+  button: {fileID: 1193395567703668622, guid: e4e0ead586fdb224aa6098201f0c05d1, type: 3}
